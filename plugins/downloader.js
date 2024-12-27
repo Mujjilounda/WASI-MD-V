@@ -747,7 +747,7 @@ smd(
         return await m.send("*_Please provide an Instagram URL!_*");
       }
 
-      const apiUrl = `https://api.maher-zubair.tech/download/instagram?url=${encodeURIComponent(url)}`;
+      const apiUrl = `https://bk9.fun/download/instagram2?url=${encodeURIComponent(url)}`;
       const response = await fetch(apiUrl);
 
       if (!response.ok) {
