@@ -968,7 +968,7 @@ smd(
         );
       }
       let video = await astroJson(
-        "https://api-smd.onrender.com/api/fbdown?url=" + query,
+        "https://bk9.fun/download/fb?url=" + query,
       );
       if (!video || !video.status) {
         return await message.reply("*Invalid Video URL!*");
@@ -1014,7 +1014,7 @@ smd(
         );
       }
       let video = await astroJson(
-        "https://api-smd.onrender.com/api/fbdown?url=" + query,
+        "https://bk9.fun/download/fb?url=" + query,
       );
       if (!video || !video.status) {
         return await message.reply("*Invalid Video URL!*");
@@ -1559,7 +1559,7 @@ smd(
         );
       }
 
-      const apiUrl = "https://aemt.me/download/tiktokdl?url=";
+      const apiUrl = "https://bk9.fun/download/tiktok?url=";
       const response = await fetch(`${apiUrl}?url=${tiktokUrl}`);
       const data = await response.json();
 
@@ -1601,7 +1601,7 @@ smd(
         );
       }
 
-      const apiUrl = `https://aemt.me/download/tiktokdl?url=${encodeURIComponent(
+      const apiUrl = `https://bk9.fun/download/tiktok2?url=${encodeURIComponent(
         tiktokUrl,
       )}`;
       const response = await fetchJson(apiUrl);
@@ -1657,7 +1657,7 @@ smd(
          );
        }
  
-       const apiUrl = "https://aemt.me/download/tiktokdl?url=";
+       const apiUrl = "https://bk9.fun/download/tiktok?url=";
        const response = await fetch(`${apiUrl}?url=${tiktokUrl}`);
        const data = await response.json();
  
@@ -1700,7 +1700,7 @@ smd(
          );
        }
  
-       const apiUrl = `https://aemt.me/download/tiktokdl?url=${encodeURIComponent(
+       const apiUrl = `https://bk9.fun/download/tiktok?url=${encodeURIComponent(
          tiktokUrl
        )}`;
        const response = await fetchJson(apiUrl);
@@ -2158,7 +2158,7 @@ smd(
     try {
       if (!text) return await m.send("*_Please provide an Instagram link_*");
 
-      let apiUrl = `https://api.maher-zubair.tech/download/instagram?url=${text}`;
+      let apiUrl = `https://bk9.fun/download/instagram2?url=${text}`;
       let response = await fetch(apiUrl);
       let jsonResponse = await response.json();
 
